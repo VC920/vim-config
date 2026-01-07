@@ -1,0 +1,11 @@
+{
+  "languageserver": {
+    "clangd": {
+    "command": "clangd",
+    "args": ["--header-insertion=never"],
+    "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+    }
+  },
+  "inlayHint.enable": false
+}
