@@ -16,8 +16,6 @@ highlight LineNr cterm=NONE ctermfg=White
 highlight CursorLineNr cterm=NONE ctermfg=Yellow
 highlight CursorLine cterm=NONE
 
-autocmd FileType * setlocal formatoptions-=cro
-
 call plug#begin('~/.vim/plugged')
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
