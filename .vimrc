@@ -12,8 +12,8 @@ set expandtab
 set cindent
 
 set cursorline
-highlight LineNr cterm=NONE ctermfg=White
-highlight CursorLineNr cterm=NONE ctermfg=Yellow
+highlight LineNr cterm=NONE ctermfg=Grey
+highlight CursorLineNr cterm=NONE ctermfg=White
 highlight CursorLine cterm=NONE
 
 call plug#begin('~/.vim/plugged')
